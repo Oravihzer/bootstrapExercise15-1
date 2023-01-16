@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Lobster&family=Lobster+Two:ital@0;1&family=Righteous&family=Rubik:ital,wght@0,500;1,800&family=Sofia+Sans:wght@300&display=swap");
+header {
+  border: solid 0px none;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+header h1 {
+  font-family: "chivo mono";
+  color: rgb(0, 0, 0);
+  transition: 0.2s ease-in 0.2s;
+}
+header h1::first-letter {
+  font-size: 120%;
+  color: #ffd046;
+}
+header nav {
+  text-align: right;
+  font-family: "Sofia Sans";
+  background-color: black;
+}
+header .btn {
+  background-color: #ffd046;
+  border: #1f1f1f solid 0px;
+  color: black;
+}
+header .btn:hover {
+  background-color: #1f1f1f;
+}
+
+body {
+  background-color: rgb(40, 40, 40);
+}
+
+.mainone {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 20px;
+}
+.mainone .mainpic {
+  height: 500px;
+  width: 700px;
+  overflow: hidden;
+  border: solid 0px none;
+  border-radius: 20px;
+}
+.mainone .mainpic:hover {
+  opacity: 0.9;
+}
+.mainone .nextto {
+  height: 500px;
+  width: 700px;
+  padding: 30px;
+} /*# sourceMappingURL=style.css.map */
+p {
+  font-family: "chivo mono";
+  color: white;
+  text-align: center;
+}
+h2 {
+  font-family: "lobster";
+  font-size: 100px;
+  color: rgb(182, 182, 182);
+  text-align: center;
+}
+.btnsound {
+  font-family: "lobster";
+  width: 150px;
+  border-radius: 20px;
+  border: solid 0px none;
+  transition: 0.1s ease 0.1s;
+}
+.btnsound:hover {
+  background-color: rgb(135, 135, 135);
+}
+.mainarea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+}
+.mainarea > img {
+  border-radius: 20px;
+  border: solid 0px none;
+  transition: 0.1s ease-in 0.1s;
+}
+.mainarea > img:hover {
+  opacity: 0.6;
+}
+p {
+  text-align: center;
+  color: rgb(186, 186, 186);
+}
+
+.signuparea {
+  color: #ffd046;
+}
+#homeb {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: solid 0px none;
+  font-family: "lobster two";
+  border-radius: 100px;
+  height: 60px;
+  width: 60px;
+}
+.newscards {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.mainart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  transition: 0.2s ease-in 0.2s;
+}
+.card {
+  transition: 0.2s ease-in 0.2s;
+}
+.card:hover {
+  opacity: 0.6;
+  width: 20rem;
+}

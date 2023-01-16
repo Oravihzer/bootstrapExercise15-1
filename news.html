@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>news</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+</html>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./signup.html"
+                >Sign Up</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./signin.html">Sign in</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Menu
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./news.html">News</a></li>
+                <li>
+                  <a class="dropdown-item" href="./albums.html">Albums</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Lastest Releases</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <h1>
+      Lastest News
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        fill="currentColor"
+        class="bi bi-boombox"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M2.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm2 0a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm7.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm-7-1a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3Zm5.5 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"
+        />
+        <path
+          d="M11.5 13a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Zm0-1a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3ZM5 10.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"
+        />
+        <path
+          d="M7 10.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm-1 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"
+        />
+        <path
+          d="M14 0a.5.5 0 0 1 .5.5V2h.5a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12.5V.5A.5.5 0 0 1 14 0ZM1 3v3h14V3H1Zm14 4H1v7h14V7Z"
+        />
+      </svg>
+    </h1>
+    <a href="./index.html"><button id="homeb">HOME</button></a>
+  </header>
+  <br />
+  <br />
+  <br />
+  <br />
+  <main>
+    <div class="mainart">
+      <div class="card" style="width: 50rem">
+        <img
+          src="https://allhiphop.com/wp-content/uploads/2022/04/png_20220408_192637_0000-960x628.png?ezimgfmt=ngcb35/notWebP"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Tekashi 6ix9ine Flaunts $1 Million Cash, Says He’s Traveling Alone &
+            Posts Address
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="newscards">
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://static.hiphopdx.com/2023/01/gunna-lil-durk-diss-meek-mill-lil-baby-unfollow-instagram-250x142.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            GUNNA GETS DISSED BY LIL DURK AS LIL BABY & MEEK MILL ADD TO
+            POST-PLEA DEAL WOES
+          </p>
+          <a
+            href="https://hiphopdx.com/news/gunna-lil-durk-diss-lil-baby-meek-mill-unfollow-instagram"
+            target="_blank"
+            class="btn btn-primary"
+            >Full Article</a
+          >
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://static.hiphopdx.com/2023/01/drake-fabolous-influence-250x142.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            DRAKE GIVES FABOLOUS HIS FLOWERS: 'WOULDN'T BE ANYWHERE WITHOUT THIS
+            GUY'
+          </p>
+          <a
+            href="https://hiphopdx.com/news/drake-fabolous-influence"
+            target="_blank"
+            class="btn btn-primary"
+            >Full Article</a
+          >
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://static.hiphopdx.com/2023/01/lil-uzi-vert-blings-out-his-face-with-six-new-face-piercings-250x142.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            LIL UZI VERT BLINGS OUT HIS FACE WITH SIX NEW PIERCINGS
+          </p>
+          <a href="#" class="btn btn-primary">Full Article</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://static.hiphopdx.com/2023/01/glorilla-la-chat-gangsta-boo-funeral-250x142.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            GLORILLA & LA CHAT EMBRACE IN HEARTWARMING MOMENT AT GANGSTA BOO’S
+            FUNERAL
+          </p>
+          <a href="#" class="btn btn-primary">Full Article</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>

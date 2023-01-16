@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Lobster&family=Lobster+Two:ital@0;1&family=Righteous&family=Rubik:ital,wght@0,500;1,800&family=Sofia+Sans:wght@300&display=swap");
+
+$primary: #ffd046;
+$secondary: #1f1f1f;
+
+header {
+  border: solid 0px none;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  & h1 {
+    font-family: "chivo mono";
+    color: rgb(0, 0, 0);
+    transition: 0.2s ease-in 0.2s;
+  }
+  & h1::first-letter {
+    font-size: 120%;
+    color: #ffd046;
+  }
+  & nav {
+    text-align: right;
+    font-family: "Sofia Sans";
+    background-color: black;
+  }
+  & .btn {
+    background-color: #ffd046;
+    border: #1f1f1f solid 0px;
+    color: black;
+  }
+  & .btn:hover {
+    background-color: #1f1f1f;
+  }
+}
+body {
+  background-color: rgb(40, 40, 40);
+}
+
+.mainone {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+& .nextto {
+  background-color: #1f1f1f;
+  width: 200px;
+  height: 800px;
+}
